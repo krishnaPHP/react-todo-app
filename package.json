@@ -1,0 +1,30 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "author": "Krishna S",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack -p",
+    "start-dev": "webpack-dashboard -- webpack-dev-server --hot --config webpack.config.js --port 9000",
+    "production": "NODE_ENV=production webpack -p"
+  },
+  "dependencies": {
+    "css-loader": "^0.28.7",
+    "lodash": "^4.17.4",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.19.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "webpack": "^3.10.0",
+    "webpack-dashboard": "^1.0.2",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
