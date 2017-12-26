@@ -4,9 +4,8 @@
   "author": "Krishna S",
   "license": "MIT",
   "scripts": {
-    "start": "webpack -p",
     "start-dev": "webpack-dashboard -- webpack-dev-server --hot --config webpack.config.js --port 9000",
-    "production": "NODE_ENV=production webpack -p"
+    "start-prod": "SET APP_ENV=prod && webpack -p"
   },
   "dependencies": {
     "css-loader": "^0.28.7",
